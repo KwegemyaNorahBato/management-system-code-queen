@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="alumini.css">
+</head>
+<body>
+ <div class="head"> 
+     <h1>ALUMINI OR STUDENT</h1> Please Create an Account or Login
+Please enter your User ID and Password below. If you do not have a User ID and Password,<br> please select "New User Registration" below the login button to register.
+</div>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <div class="container">
+        <div class="card card-container">
+           
+            <img id="profile-img" class="profile-img-card" src="k.png" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="email" id="inputEmail" class="form-control" placeholder="ID No." required autofocus>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit"><a href="dashboard.html" >  Sign in</button></a>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit"> <a href="Register.html" >Register</button></a>
+            </form>
+            <a href="password.html" class="forgot-password">
+                Forgot the password?
+            </a>
+        </div>
+    </div>
+</body>
+</html>

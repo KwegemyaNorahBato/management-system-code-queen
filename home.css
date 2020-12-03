@@ -1,0 +1,71 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background:url(tyb.png) no-repeat;
+    background-color: rgba(133, 122, 122, 0.877);
+}
+
+
+.acc {
+    position: relative;
+    text-align: center;
+    font-family: italic;
+    font-size: bold,larger;
+    color: black;
+}
+.text-white{
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: italic;
+    font-size: small;
+}
+
+
+.card {
+    border-radius: 0;
+    border: none
+}
+
+.card1 {
+    width: 50%;
+    padding: 40px 30px 10px 30px
+}
+
+.card2 {
+    width: 50%;
+    background-image: linear-gradient(to right, orange,white);
+    border-radius:20px;
+   color: #000;
+
+}
+
+#logo {
+    width: 70px;
+    height: 60px
+}
+
+
+
+
+.btn-color {
+    border-radius: 50px;
+    color:black;
+    font-family: bold;
+    background-image: linear-gradient(to right, #FFD54F, orange);
+    padding: 15px;
+    cursor: pointer;
+    border: none !important;
+    margin-top: 40px;
+    position: relative;
+    
+}
+
+.btn-color:hover {
+    color: #fff;
+    background-image: linear-gradient(to right, orange, #FFD54F)
+}
+
+
+
