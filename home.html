@@ -3,48 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
-   
+    <title>Login Page</title>
 </head>
 
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="./css/home.css">
 
-<div class="container px-4 py-5 mx-auto">
+<!------ Include the above in your HEAD tag ---------->
+<body>
     
-    <div class="card card0">
-        <div class="d-flex flex-lg-row flex-column-reverse">
-            <div class="card card1">
-               
 
-                
-                   
-               
-            </div>
-            <div class="card card2">
-                 <div class="my-auto mx-md-5 px-md-5 right"></div>
-                 <div class="row justify-content-center px-3 mb-3"> <img id="logo" src="ok.png"> </div>
-                 <h3 class="text-white">WELCOME  TO <br> (ETC)</h3> <small class="text-white">Educating The Children is a UK registered charity that focuses on empowering young women through education and training that increases their employability. Last year we launched Code Queen in Kampala which is an all-female bootcamp designed to train young women in coding and soft skills. Code Queen has successfully run 3 cohorts and graduated 70 students since the launch in 2019.
-                </small>
-                 <p class="acc" > PLEASE CHOOSE AN ACCOUNT BELOW!</p>
-                 <div class="row justify-content-center my-3 px-3"> <button class="btn-block btn-color"><a href="alumini.html"> ALUMINI</button></a> </div>
-                 <div class="row justify-content-center my-3 px-3"> <button class="btn-block btn-color"><a href="alumini.html">STUDENT</a> </div>
+<div class="container login-container">
+            <div class="row">
+                <div class="col-md-6 login-form-1">
+                    <h3>Alumni Login</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Your Password *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Login" />
+                        </div>
+                        <div class="form-group">
+                            <a href="#" class="ForgetPwd">Forgot Password?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 login-form-2">
+                    <h3>Admin Login</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Your Password *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Login" />
+                            
+                        </div>
+                        
+                        <div class="form-group">
 
-                 <div class="row justify-content-center my-3 px-3"> <button class="btn-block btn-color"><a href="admin.html">ADMIN</a></button> </div>
-                
-             </div>
-         </div>
-        
-                    
-         
+                            <a href="password.html" class="ForgetPwd" value="Login">Forgot Password?</a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-
-
-
-
-</body>
-</html>
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
+        <script src="bootstrap/js/jquery.min.js"></script>
+        </body>
+        </html>

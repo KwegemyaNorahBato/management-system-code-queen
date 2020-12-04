@@ -4,94 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="Register.js"></script>
-    <link rel="stylesheet" href="Register.js">
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
-<body>
-    <h1>Registration Form</h1>
-    <img src="tt.jpg"  alt="tt.jpg" height="80px"  width="88px" left="40px">
+<body BGCOLOR="#F3AC3A">
+    <div class="container mt-5">
+        <div class="row">
+        <div class="col-sm-6">
+            
+    <h1>Alumni Registration Form</h1>
         <form>
+            <label for="firstname">First name</label>
+            <input type="text" class="form-control">
+
+            <label for="lastname">last name</label>
+            <input type="text" class="form-control">
+
+            <label for="Email">Email</label>
+            <input type="email" class="form-control">
+
+            <label for="Address">Address</label>
+            <input type="text" class="form-control">
+
+            <label for="phone number">Phone Number</label>
+            <input type="text" class="form-control">
+            <label for="Password">Password</label>
+            <input type="text" class="form-control">
            
-            <table>
-                <tr>
-                    <td>
-                     First Name:  
-                    </td>
-                    <td>
-                        <input type="text"name="" placeholder="First Name">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                      Last Name:  
-                    </td>
-                    <td>
-                        <input type="text"name="" placeholder="Last Name">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                     Email:  
-                    </td>
-                    <td>
-                        <input type="text"name="" placeholder="Email">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                     Password: 
-                    </td>
-                    <td>
-                        <input type="text"name="" placeholder="Password">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Address:
-                    </td>
-                    <td>
-                        <input type="Address" name=" " placeholder="Address">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Phone no:
-                    </td>
-                    <td>
-                        <select>
-                            <option>256</option>
-                            <option>077</option>
-                            <option>075</option>
-                        </select>
-                        <input type="Phone" name=" " placeholder="0123456789" name="" >
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Marital Status:
-                    </td>
-                    <td>
-                        <input type="radio" name=" " placeholder=" Marital Status">Single
-                        <input type="radio" name=" " placeholder="Marital Status">Married
-                        <input type="radio" name=" " placeholder="Marital Status">Widow
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Date:
-                    </td>
-                    <td>
-                        <input type="Gender" name=" " placeholder="DD/MM/YY">
-                    </td>
-                </tr>
-                <td>
-                    <input type="Submit" value="Submit" name="">
-                </td>
-                <td>
-                    <input type="Save Documemt" value="Save Document" name="">
-                </td>
-            </table>
+             
+            <input type="radio" name=" " placeholder=" Marital Status">Single
+            <input type="radio" name=" " placeholder="Marital Status">Married
+            <input type="radio" name=" " placeholder="Marital Status">Widow
+                
+            <label for="dateofbirth">Date of Birth</label>
+            <input type="date" class="form-control">   
+            
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlFile1">Example file input</label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+              </form>
+              
+            <input type="button" value="Submit" name="" class="btn btn-warning">  
+            <input type="button" value="Save Document" name="" class="btn btn-dark">
+           
         </form>
-    </h1>
+        </div>
+        </div>
+        </div>
+    </div>
+    
+    <script src="./js/Register.js"></script>
 </body>
 </html>
